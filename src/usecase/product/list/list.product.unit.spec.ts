@@ -1,8 +1,8 @@
 import Product from "../../../domain/product/entity/product";
 import ListProductUseCase from "./list.product.usecase";
 
-const product1 = new Product('1', 'Product 1', 10, 1);
-const product2 = new Product('2', 'Product 2', 20, 2);
+const product1 = new Product('1', 'Product 1', 10);
+const product2 = new Product('2', 'Product 2', 20);
 
 const MockRepository = () => {
   return {
